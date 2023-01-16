@@ -1,0 +1,139 @@
+body {
+  overflow-x: hidden;
+  font-family: "Sora", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* :root{
+ --green:rgb(33, 140, 58);
+ --red:rgb(174, 98, 89);
+ --green:rgb(33, 140, 58);
+ --green:rgb(33, 140, 58);
+} */
+
+p {
+  color: rgb(156, 149, 139);
+}
+input::placeholder {
+  color: white !important;
+}
+/* Home-SECTION */
+.header {
+  background-color: #000000;
+  color: white !important;
+}
+
+.bg-image {
+   /* background-image: url("images/home-image-3.jpg") !important;
+  width: 100vw !important;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  text-align: center;
+  display: flex !important;
+justify-content:center !important;
+align-items:center !important;
+  
+}
+
+.h1-main {
+  font-size: 7rem;
+  font-weight: bold;
+  color: white !important;
+  position: absolute;
+  bottom: 0;
+  inset: 0;
+  display: grid;
+  place-items: center;
+
+}
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
+.p-main {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+ margin-top: 10%;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+
+/* SECTION-3   */
+.section-3 {
+  background-color: rgba(44, 44, 44, 0.876);
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: rgb(120, 119, 112) !important;
+  height: 1px !important;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/* SECTION-4  */
+.section-4 {
+  background-color: #18222b;
+}
+/* SECTION-5  */
+.section-5 {
+  /* background-color: #809a6f !important; */
+  height: 70vh;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  background-color: #fff;
+ 
+  padding: 5%;
+  margin: 3%;
+  border-radius: 5%;
+}
+
+
+.sec-4 {
+  width: 100% !important;
+  height: 30%;
+  padding: 45px;
+  float: right;
+  margin-right: 10%;
+  background-color: #252729 !important;
+  border-radius: 40px;
+
+}
+
+
+.image-4 img {
+  width: 50% !important;
+  border-radius: 260px !important;
+  height: 85% !important;
+  margin-left: 20%;
+ 
+
+}
+.small-circle {
+  background-color: rgb(174, 98, 89);
+  width: 20% !important;
+  border-radius: 130px !important;
+  height: 35% !important;
+  z-index:-1!important;
+  margin: -10% 0% 0% 55%;
+
+}
+/* .hover-green:hover{
+color: var(--green);
+} */
